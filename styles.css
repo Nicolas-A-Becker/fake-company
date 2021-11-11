@@ -1,0 +1,84 @@
+/*Horizontal nav bar (add drop down menus here)*/
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background: #6B341B;
+}
+
+img{
+	width: 100%;
+}
+
+#header{
+	padding: 0px;
+}
+
+#title{
+	font-size: 30px;
+}
+
+.top-links{
+	margin-left: 6%;
+}
+
+#top-bar{
+	height: 20px;
+	background: #6B341B;
+}
+
+#nav-bar{
+    background: white;
+	width: 100%;
+}
+
+#nav-bar li{
+    font-family: Verdana;
+    font-style: bold;
+    list-style-type: none;
+    display: inline-block;
+    padding: 14px;
+    padding-left: 55px;
+    color: black;
+}
+
+#nav-bar a{
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#nav-bar a:hover{
+	color: grey;
+}
+
+#main-content{
+
+}
+
+#main-footer{
+	display: flex;
+	background: #6B341B;
+	margin: 0;
+}
+
+#left-footer{
+	width: 30%;
+	height: 100px;
+	background: grey;
+	margin-left: 35px;
+}
+
+#mid-footer{
+	width: 30%;
+	height: 100px;
+	background: grey;
+	margin-left: 35px;
+}
+
+#right-footer{
+	width: 30%;
+	height: 100px;
+	background: grey;
+	margin-left: 35px;
+}
