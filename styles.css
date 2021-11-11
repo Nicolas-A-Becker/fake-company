@@ -22,15 +22,11 @@ h1{
 	margin-left: 6%;
 }
 
-#top-bar{
-	height: 20px;
-	background: #6B341B;
-}
-
 #nav-bar{
-    background: white;
-	width: 150%;
+    background: #6B341B;
+	width: 100%;
 	height: 80px;
+	color: white;
 }
 
 #nav-bar li{
@@ -39,12 +35,11 @@ h1{
     list-style-type: none;
     display: inline-block;
     padding-left: 55px;
-	padding-top: 20px;
-    color: black;
+	padding-top: 10px;
 }
 
 #nav-bar a{
-    color: black;
+	color: white;
     text-decoration: none;
     padding: 2px;
 }
@@ -63,6 +58,7 @@ h1{
 	margin: 0px;
 	position: relative;
 	top: -4px;
+	color: white;
 }
 
 #left-footer{
