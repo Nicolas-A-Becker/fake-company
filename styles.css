@@ -14,6 +14,10 @@ h1{
 	margin: 0;
 }
 
+h3{
+	margin: 0;
+}
+
 #title{
 	font-size: 30px;
 }
@@ -49,7 +53,16 @@ h1{
 }
 
 #main-content{
+	position: relative;
+	color: white;
+	font-size: 110px;
+	font-weight: bold;
+}
 
+#overlay-text{
+	position: absolute;
+	bottom: 260px;
+	left: 75%;
 }
 
 #main-footer{
@@ -59,6 +72,15 @@ h1{
 	position: relative;
 	top: -4px;
 	color: white;
+}
+
+#main-footer a{
+	color: white;
+	text-decoration: none;
+}
+
+#main-footer a:hover{
+	color: grey;
 }
 
 #left-footer{
@@ -71,6 +93,7 @@ h1{
 	width: 30%;
 	height: 100px;
 	margin-left: 35px;
+	margin-top: 22px;
 }
 
 #right-footer{
