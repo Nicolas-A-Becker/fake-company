@@ -3,11 +3,15 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	background: white;
+	background: #6B341B;
 }
 
 img{
 	width: 100%;
+}
+
+h1{
+	margin: 0;
 }
 
 #title{
@@ -25,8 +29,8 @@ img{
 
 #nav-bar{
     background: white;
-	width: 100%;
-	height: 60px;
+	width: 150%;
+	height: 80px;
 }
 
 #nav-bar li{
@@ -35,6 +39,7 @@ img{
     list-style-type: none;
     display: inline-block;
     padding-left: 55px;
+	padding-top: 20px;
     color: black;
 }
 
@@ -49,32 +54,31 @@ img{
 }
 
 #main-content{
-	background-image: url('/images/chefs.jpg');
+
 }
 
 #main-footer{
 	display: flex;
 	background: #6B341B;
-	margin: 0;
+	margin: 0px;
+	position: relative;
+	top: -4px;
 }
 
 #left-footer{
 	width: 30%;
 	height: 100px;
-	background: grey;
 	margin-left: 35px;
 }
 
 #mid-footer{
 	width: 30%;
 	height: 100px;
-	background: grey;
 	margin-left: 35px;
 }
 
 #right-footer{
 	width: 30%;
 	height: 100px;
-	background: grey;
 	margin-left: 35px;
 }
