@@ -3,15 +3,11 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	background: #6B341B;
+	background: white;
 }
 
 img{
 	width: 100%;
-}
-
-#header{
-	padding: 0px;
 }
 
 #title{
@@ -30,6 +26,7 @@ img{
 #nav-bar{
     background: white;
 	width: 100%;
+	height: 60px;
 }
 
 #nav-bar li{
@@ -37,7 +34,6 @@ img{
     font-style: bold;
     list-style-type: none;
     display: inline-block;
-    padding: 14px;
     padding-left: 55px;
     color: black;
 }
@@ -53,7 +49,7 @@ img{
 }
 
 #main-content{
-
+	background-image: url('/images/chefs.jpg');
 }
 
 #main-footer{
