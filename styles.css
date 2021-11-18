@@ -1,9 +1,14 @@
 /*Horizontal nav bar (add drop down menus here)*/
 
+html{
+	height: 100%;
+}
+
 body{
 	padding: 0px;
 	margin: 0px;
 	background: #6B341B;
+	height: 100%;
 }
 
 img{
@@ -16,6 +21,12 @@ h1{
 
 h3{
 	margin: 0;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
 }
 
 #title{
@@ -29,7 +40,7 @@ h3{
 #nav-bar{
     background: #6B341B;
 	width: 100%;
-	height: 80px;
+	height: 12%;
 	color: white;
 }
 
@@ -38,14 +49,13 @@ h3{
     font-style: bold;
     list-style-type: none;
     display: inline-block;
-    padding-left: 55px;
-	padding-top: 10px;
+    padding-left: 4%;
+	padding-top: 1%;
 }
 
 #nav-bar a{
 	color: white;
     text-decoration: none;
-    padding: 2px;
 }
 
 #nav-bar a:hover{
@@ -61,7 +71,7 @@ h3{
 
 #overlay-text{
 	position: absolute;
-	bottom: 260px;
+	bottom: 30%;
 	left: 75%;
 }
 
@@ -70,7 +80,6 @@ h3{
 	background: #6B341B;
 	margin: 0px;
 	position: relative;
-	top: -4px;
 	color: white;
 }
 
@@ -85,19 +94,48 @@ h3{
 
 #left-footer{
 	width: 30%;
-	height: 100px;
-	margin-left: 35px;
+	height: 5%;
+	margin-left: 5%;
 }
 
 #mid-footer{
 	width: 30%;
-	height: 100px;
-	margin-left: 35px;
-	margin-top: 22px;
+	height: 5%;
+	margin-left: 5%;
+	margin-top: 1.4%;
 }
 
 #right-footer{
 	width: 30%;
-	height: 100px;
-	margin-left: 35px;
+	height: 5%;
+	margin-left: 5%;
+}
+
+#small-headers{
+	margin-left: 10%;
+	padding-top: 2%;
+	width: 80%;
+	text-align: center;
+}
+
+#small-headers h3{
+	display: inline;
+}
+
+#small-headers a{
+	margin-left: 4%;
+}
+
+#main-block{
+	width: 80%;
+	height: 90%;
+	background-color: white;
+	margin-left: 10%;
+	position: absolute;
+	bottom: 0;
+}
+
+#main-block h1{
+	text-align: center;
+	padding-top: 2%;
 }
